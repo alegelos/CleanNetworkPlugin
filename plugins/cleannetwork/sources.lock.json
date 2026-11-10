@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "sources": [
+    {
+      "commit": "cbcb6d0ecdbd85210db368e9872cc296fb3531e4",
+      "files": {
+        "SKILL.md": {
+          "executable": false,
+          "sha256": "25dc43e67c1c7a19cbf95ba2e66d17b3f197f80af6b4f10cd2923e379e46e063"
+        },
+        "agents/openai.yaml": {
+          "executable": false,
+          "sha256": "254a01dac0476a1a154951205dab73c02bde213e423aa723b8f5743c24390359"
+        },
+        "assets/UserExample/Package.swift": {
+          "executable": false,
+          "sha256": "5dd56e75387d2a8dd723e841a3d448ba61e91ae13f71a6efaac1868795054828"
+        },
+        "assets/UserExample/Sources/UserExample/Data/APIs/UserAPI/DTOs/CreateUserDTO.swift": {
+          "executable": false,
+          "sha256": "0119206d6aa29c7720bf5a07ec143b30ebd0c59f07b038e2563f5283e889d3a9"
+        },
+        "assets/UserExample/Sources/UserExample/Data/APIs/UserAPI/Responses/UserResponse.swift": {
+          "executable": false,
+          "sha256": "413d70e87c67c9fdba1e30ec7caca1c54fa115335b3d264a948a8a91d46a8e58"
+        },
+        "assets/UserExample/Sources/UserExample/Data/APIs/UserAPI/UserAPIProvider.swift": {
+          "executable": false,
+          "sha256": "16d840629a874da036f160720fca45b1f9fa62b0565b82f7d39749bcf9814d3a"
+        },
+        "assets/UserExample/Sources/UserExample/Data/APIs/UserAPI/UserAPISetup.swift": {
+          "executable": false,
+          "sha256": "03c985d6b364c6544f1a516b83f4793cba029e28c1b77c28c0df3087628cf393"
+        },
+        "assets/UserExample/Sources/UserExample/Domain/Models/NewUser.swift": {
+          "executable": false,
+          "sha256": "26fb6e95b178ab855314c4aff3a99da5f399e639a25072383e17c05d044ac0cf"
+        },
+        "assets/UserExample/Sources/UserExample/Domain/Models/User.swift": {
+          "executable": false,
+          "sha256": "00ffcf33513bf857b0fbba6fa50dc3434f41c3cefb6f1bcda988412625a5893f"
+        },
+        "assets/UserExample/Sources/UserExample/Domain/Providers/UserProviderProtocol.swift": {
+          "executable": false,
+          "sha256": "6813e86e932730a4f0f79fe331ce88ccc96d63161b1be40298cbde84a01bb3be"
+        },
+        "assets/UserExample/Tests/UserExampleTests/Resources/CreateUser.json": {
+          "executable": false,
+          "sha256": "fee06fd76249283b26aeb8f292993330c576865562c635205b27795cfee4a741"
+        },
+        "assets/UserExample/Tests/UserExampleTests/Resources/GetUser.json": {
+          "executable": false,
+          "sha256": "a1976f1a401197d8ceebd6ba617de8c0239283c2fa7d1299660f5dad0845781f"
+        },
+        "assets/UserExample/Tests/UserExampleTests/Support/StubNetworkSession.swift": {
+          "executable": false,
+          "sha256": "970af567d830a8354be631d4915a3211cf2487e230b4ffbe49425c689056fe29"
+        },
+        "assets/UserExample/Tests/UserExampleTests/Support/UserAPISetup+Fixtures.swift": {
+          "executable": false,
+          "sha256": "607fb7f10610c3a96235cb226ccb5cb447ede731fa50d859ea1926306813ace1"
+        },
+        "assets/UserExample/Tests/UserExampleTests/Support/UserProviderSpy.swift": {
+          "executable": false,
+          "sha256": "0e4673197b0d7970af6a90b9294b89a2d4760ea07050998acfcb32fa7f03e266"
+        },
+        "assets/UserExample/Tests/UserExampleTests/UserAPIProviderTests.swift": {
+          "executable": false,
+          "sha256": "d01caf3703df4ef9f6fa1ab5672fba642558cb057683f76550661958cc904fb7"
+        },
+        "assets/UserExample/Tests/UserExampleTests/UserAPISetupTests.swift": {
+          "executable": false,
+          "sha256": "f1c4579ee887d2026cb22051cc04e0cc58f5f47d77fcab58617878006fceb83f"
+        },
+        "assets/UserExample/Tests/UserExampleTests/UserProviderSpyTests.swift": {
+          "executable": false,
+          "sha256": "2b6232a3d2075cb1be7be4c74034ecd5bfc95ff7250fbf8ce279efbc072982e5"
+        },
+        "references/integration.md": {
+          "executable": false,
+          "sha256": "b59da1ff9ef27424daa85c5234eb04cd1878cfc80fc7b9c498cf828e251184f4"
+        }
+      },
+      "path": "skills/ioscleannetwork",
+      "repository": "https://github.com/alegelos/iOSCleanNetwork",
+      "skill": "ioscleannetwork",
+      "tag": "1.0.4"
+    },
+    {
+      "commit": "1d363a279ff60d3c30939b95428cec77c7f001c4",
+      "files": {
+        "SKILL.md": {
+          "executable": false,
+          "sha256": "9172ca3a4a1b9faec309a3eca2e3b64d4829f70d845a9c85059007e055ed2d93"
+        },
+        "agents/openai.yaml": {
+          "executable": false,
+          "sha256": "cef5cf614392a18121bd838764b94d56662f97f41230e916c776a5d7b3ddf172"
+        },
+        "assets/UserExample/.gitignore": {
+          "executable": false,
+          "sha256": "5f6f22a36e51dd2c01f27220e96cfaadc39c66659e05d1ff3c7d7236ae072acb"
+        },
+        "assets/UserExample/build.gradle.kts": {
+          "executable": false,
+          "sha256": "4b7d43b2d4786959e9f607e31020f7036f8357955bfe04aa3331c8f51bdc0db9"
+        },
+        "assets/UserExample/gradle.properties": {
+          "executable": false,
+          "sha256": "fa078c27c9e4bde28a029d673875b028884505efa436b68cf60e1ac0be5b679b"
+        },
+        "assets/UserExample/gradle/wrapper/gradle-wrapper.jar": {
+          "executable": false,
+          "sha256": "2db75c40782f5e8ba1fc278a5574bab070adccb2d21ca5a6e5ed840888448046"
+        },
+        "assets/UserExample/gradle/wrapper/gradle-wrapper.properties": {
+          "executable": false,
+          "sha256": "23b7b98fa7f086c7310fb49d39084bdb472003a03f3b8508b43098f381d53114"
+        },
+        "assets/UserExample/gradlew": {
+          "executable": true,
+          "sha256": "55a90a7e3fddd27f7041b0741897f73c142490dc695b6dd97c4bda7a19c6dffa"
+        },
+        "assets/UserExample/gradlew.bat": {
+          "executable": false,
+          "sha256": "541868f29ba55df80bba70f288a3557bba0862658cfe62daa7b60576121915a0"
+        },
+        "assets/UserExample/settings.gradle.kts": {
+          "executable": false,
+          "sha256": "fb5a73b5e655016274fddf64c9942232a7cde102405fb63ce73cb6ba8fe51018"
+        },
+        "assets/UserExample/user-data/build.gradle.kts": {
+          "executable": false,
+          "sha256": "177159e017cc0d4a90bdcbfae1077e04cb3db8e0be37acddadf2c779f69d2636"
+        },
+        "assets/UserExample/user-data/src/main/AndroidManifest.xml": {
+          "executable": false,
+          "sha256": "571f2735faf5e857752ee057ac8ef63425576a721616c60b86ee5d4c0a2d682f"
+        },
+        "assets/UserExample/user-data/src/main/kotlin/com/example/user/data/CreateUserDTO.kt": {
+          "executable": false,
+          "sha256": "3f0d524b5e378f7d82780400b5655ceaaa60d3540dfa86bd0bd61b51913d6291"
+        },
+        "assets/UserExample/user-data/src/main/kotlin/com/example/user/data/UserApiProvider.kt": {
+          "executable": false,
+          "sha256": "e484babf14f23d4de816ac44aa0ab576c0bf4af49ab11179f1709d0fa54d9666"
+        },
+        "assets/UserExample/user-data/src/main/kotlin/com/example/user/data/UserApiSetup.kt": {
+          "executable": false,
+          "sha256": "8e67c6a8e45d5ee5124664cdd153b6180f5b7068df6cced8acab8d1532fc6209"
+        },
+        "assets/UserExample/user-data/src/main/kotlin/com/example/user/data/UserResponse.kt": {
+          "executable": false,
+          "sha256": "201da1791d2465e65df883e24348a112b43354053abdf3409d1102dc7a431da6"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/UserApiProviderTest.kt": {
+          "executable": false,
+          "sha256": "cd4a9e7b92cb8fd3f8730a379fba6a408da0aee746a31094fb87cff05b55c995"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/UserApiSetupTest.kt": {
+          "executable": false,
+          "sha256": "80b8cb130da726474864aadc3fcbb4b7577c5efeea48a33ce659a81fd0430afb"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/UserProviderSpyTest.kt": {
+          "executable": false,
+          "sha256": "dbf45ff0bbbfd8578906fb81e77bdb17bccb4b77fc12cb4db94352620ae0d245"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/support/StubNetworkSession.kt": {
+          "executable": false,
+          "sha256": "91552295ff952c462bbe3b2707e99887d50c13863c0622e8e3c1c7dacaa7b5ad"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/support/UserApiFixtures.kt": {
+          "executable": false,
+          "sha256": "52e9fa1a5370fa64d75cd8db7401e6f5679051e041404af8913124c853f83a01"
+        },
+        "assets/UserExample/user-data/src/test/kotlin/com/example/user/data/support/UserProviderSpy.kt": {
+          "executable": false,
+          "sha256": "f13368b38d04fffa6dea517738ee4cb602ba0e5bc29d34998e99a11ffccc1f89"
+        },
+        "assets/UserExample/user-data/src/test/resources/fixtures/CreateUser.json": {
+          "executable": false,
+          "sha256": "fee06fd76249283b26aeb8f292993330c576865562c635205b27795cfee4a741"
+        },
+        "assets/UserExample/user-data/src/test/resources/fixtures/GetUser.json": {
+          "executable": false,
+          "sha256": "a1976f1a401197d8ceebd6ba617de8c0239283c2fa7d1299660f5dad0845781f"
+        },
+        "assets/UserExample/user-domain/build.gradle.kts": {
+          "executable": false,
+          "sha256": "484fe257c1a5bae04baea38769c990765d1c1c850011738ab5657d2541aaaaf9"
+        },
+        "assets/UserExample/user-domain/src/main/kotlin/com/example/user/domain/NewUser.kt": {
+          "executable": false,
+          "sha256": "cadf222d99334707d8a23ade0eef054f76247d643bf9d5a36a2e86a8fd8b8db3"
+        },
+        "assets/UserExample/user-domain/src/main/kotlin/com/example/user/domain/User.kt": {
+          "executable": false,
+          "sha256": "243cb0e0269311a541bd11fecc333f58c2da6c5e9d9e0a4ba1eaec534d76b9d4"
+        },
+        "assets/UserExample/user-domain/src/main/kotlin/com/example/user/domain/UserProviderProtocol.kt": {
+          "executable": false,
+          "sha256": "348543d0cbe294424ab0a31ba99dfcfde073e8ea7f1eb160db0543a98b7f3c0d"
+        },
+        "references/integration.md": {
+          "executable": false,
+          "sha256": "eda1bccf9d4ab9e585ac6643686b56b418e92cb917bf2bd50a2ba55d669edbbd"
+        }
+      },
+      "path": "skills/androidcleannetwork",
+      "repository": "https://github.com/alegelos/AndroidCleanNetwork",
+      "skill": "androidcleannetwork",
+      "tag": "1.0.1"
+    }
+  ]
+}

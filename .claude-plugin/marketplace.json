@@ -1,0 +1,12 @@
+{
+  "name": "cleannetwork-tools",
+  "description": "Integration guides and examples for the CleanNetwork Swift and Android SDKs.",
+  "owner": {"name": "alegelos"},
+  "plugins": [
+    {
+      "name": "cleannetwork",
+      "source": "./plugins/cleannetwork",
+      "description": "Integrate the Swift and Android networking SDKs."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cleannetwork",
+  "version": "0.3.0",
+  "description": "Integrate iOSCleanNetwork and AndroidCleanNetwork with domain mapping, fixtures and tests.",
+  "author": {
+    "name": "alegelos"
+  },
+  "license": "MIT",
+  "keywords": [
+    "swift",
+    "kotlin",
+    "networking",
+    "sdk"
+  ],
+  "homepage": "https://github.com/alegelos/CleanNetworkPlugin",
+  "repository": "https://github.com/alegelos/CleanNetworkPlugin",
+  "displayName": "CleanNetwork",
+  "icon": "./assets/icon.png"
+}

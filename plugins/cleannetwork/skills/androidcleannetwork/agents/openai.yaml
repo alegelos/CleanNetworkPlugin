@@ -1,0 +1,4 @@
+interface:
+  display_name: "AndroidCleanNetwork"
+  short_description: "Build Kotlin SDK integrations with fixtures and tests"
+  default_prompt: "Use $androidcleannetwork to implement the described endpoint in this project with domain mapping and relevant tests."

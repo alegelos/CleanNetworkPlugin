@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOSCleanNetwork"
+  short_description: "Build Swift SDK integrations with fixtures and tests"
+  default_prompt: "Use $ioscleannetwork to implement the described endpoint in this project with domain mapping and relevant tests."

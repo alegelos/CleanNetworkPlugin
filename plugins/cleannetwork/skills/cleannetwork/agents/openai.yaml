@@ -1,0 +1,4 @@
+interface:
+  display_name: "CleanNetwork"
+  short_description: "Choose the right CleanNetwork SDK integration"
+  default_prompt: "Use $cleannetwork to select the SDK guide and adapt the integration to this project."

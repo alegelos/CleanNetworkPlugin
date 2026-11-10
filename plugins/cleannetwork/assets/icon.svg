@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>CleanNetwork</title>
+  <rect width="512" height="512" rx="112" fill="#10243A"/>
+  <path d="M336 166 A128 128 0 1 0 336 346" fill="none" stroke="#F4FAFF" stroke-width="40" stroke-linecap="round"/>
+  <path d="M336 166 L400 256 L336 346" fill="none" stroke="#4DD8E8" stroke-width="18" stroke-linejoin="round"/>
+  <g fill="#4DD8E8">
+    <circle cx="336" cy="166" r="25"/>
+    <circle cx="400" cy="256" r="25"/>
+    <circle cx="336" cy="346" r="25"/>
+  </g>
+</svg>

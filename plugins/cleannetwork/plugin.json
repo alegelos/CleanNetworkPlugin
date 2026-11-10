@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cleannetwork",
+  "version": "0.3.0",
+  "description": "Integrate iOSCleanNetwork and AndroidCleanNetwork with domain mapping, fixtures and tests.",
+  "author": {
+    "name": "alegelos"
+  },
+  "license": "MIT",
+  "keywords": [
+    "swift",
+    "kotlin",
+    "networking",
+    "sdk"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/cleannetwork/SKILL.md",
+      "interface": {
+        "displayName": "CleanNetwork",
+        "shortDescription": "Swift and Android SDK guides",
+        "longDescription": "Versioned iOSCleanNetwork and AndroidCleanNetwork integration guides, executable examples and tests. Adapts to the consuming project's architecture and module layout.",
+        "developerName": "alegelos",
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Use the CleanNetwork skill to choose the right SDK guide for this project.",
+          "Use the iOSCleanNetwork skill to implement this endpoint with domain mapping and tests.",
+          "Use the AndroidCleanNetwork skill to implement this endpoint with domain mapping and tests."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "websiteURL": "https://github.com/alegelos/CleanNetworkPlugin",
+        "supportURL": "https://github.com/alegelos/CleanNetworkPlugin/issues",
+        "capabilities": [
+          "Integrate Swift and Android endpoints",
+          "Map transport types to domain models",
+          "Create JSON fixtures and integration tests"
+        ]
+      }
+    }
+  },
+  "homepage": "https://github.com/alegelos/CleanNetworkPlugin",
+  "repository": "https://github.com/alegelos/CleanNetworkPlugin"
+}

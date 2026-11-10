@@ -1,0 +1,13 @@
+.DS_Store
+.unlazy/
+dist/
+__pycache__/
+*.pyc
+**/.build/
+**/.swiftpm/
+**/Package.resolved
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+**/.idea/
