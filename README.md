@@ -13,7 +13,7 @@ connect to a service.
 | `ioscleannetwork` | Swift endpoint integration, mapping and tests | 1.0.4 |
 | `androidcleannetwork` | Kotlin/Android endpoint integration, mapping and tests | 1.0.1 |
 
-Plugin version **0.3.0** is independent of the two SDK versions. The platform
+Plugin version **0.3.1** is independent of the two SDK versions. The platform
 guides and examples are copied unchanged from pinned upstream Git commits.
 Both clients share these sources. The Claude account upload adapts a few example
 file paths to its upload limits, as described below.
@@ -47,7 +47,7 @@ or a release ZIP. [Directory submission details](docs/PUBLISHING.md).
 ## Install from the Claude application
 
 In Claude Desktop or on the web, open **Customize → Plugins** and use the custom
-plugin upload option. Select `cleannetwork-claude-0.3.0.zip` from `dist/`, keeping
+plugin upload option. Select `cleannetwork-claude-0.3.1.zip` from `dist/`, keeping
 it zipped. Use this upload archive, not the marketplace archive. Plugins added
 there belong to your Claude account. Claude Code **2.1.273+**, signed in with the
 same account, syncs them at startup; API-key sessions do not sync account plugins.
@@ -62,7 +62,7 @@ See [Claude Code's desktop installation instructions](https://code.claude.com/do
 
 ## Install locally in Claude Code
 
-Register this checkout or the extracted `cleannetwork-marketplace-0.3.0.zip`:
+Register this checkout or the extracted `cleannetwork-marketplace-0.3.1.zip`:
 
 ```sh
 claude plugin marketplace add /path/to/CleanNetworkPlugin
@@ -102,7 +102,7 @@ codex plugin list --marketplace cleannetwork-tools --json
 ```
 
 Replace the path with this checkout, or the directory where you extracted
-`cleannetwork-marketplace-0.3.0.zip`. Keep the entire extracted marketplace,
+`cleannetwork-marketplace-0.3.1.zip`. Keep the entire extracted marketplace,
 including `.agents/` and `plugins/`, together and available at that path.
 
 Start a new Codex session in the **consumer app/SDK**. In Codex in the ChatGPT
@@ -142,10 +142,10 @@ inside their skills and remain the technical source of truth.
 
 `python3 scripts/build_plugin.py` produces three archives in `dist/`:
 
-- `cleannetwork-0.3.0.zip`: the plugin root with both client manifests.
-- `cleannetwork-marketplace-0.3.0.zip`: a complete local marketplace for both
+- `cleannetwork-0.3.1.zip`: the plugin root with both client manifests.
+- `cleannetwork-marketplace-0.3.1.zip`: a complete local marketplace for both
   clients, including maintenance/verification scripts.
-- `cleannetwork-claude-0.3.0.zip`: a Claude account upload with only the Claude
+- `cleannetwork-claude-0.3.1.zip`: a Claude account upload with only the Claude
   manifest and paths adapted to the account upload limits.
 - `SHA256SUMS.txt`: checksums of all three archives.
 
@@ -232,3 +232,4 @@ Official references: [plugin packaging](https://developers.openai.com/plugins/bu
 
 MIT. See [LICENSE](LICENSE). The plugin carries the upstream SDK license with
 the copied guides/examples and preserves the Gradle wrapper's embedded notices.
+See the [privacy policy](docs/PRIVACY.md) and [terms of service](docs/TERMS.md).

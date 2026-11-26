@@ -66,6 +66,12 @@ def validate(root=ROOT):
     for field in ('logo', 'composerIcon'):
         if interface.get(field) != './assets/icon.png':
             raise ValueError(f'Missing public listing icon: {field}')
+    for field, document in (('privacyPolicyURL', 'PRIVACY.md'),
+                            ('termsOfServiceURL', 'TERMS.md')):
+        if interface.get(field) != f'https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/{document}':
+            raise ValueError(f'Invalid public listing URL: {field}')
+        if not (root / 'docs' / document).is_file():
+            raise ValueError(f'Missing public policy document: {document}')
     icon = (plugin / 'assets/icon.png').read_bytes()
     if (len(icon) < 33 or icon[:8] != b'\x89PNG\r\n\x1a\n' or icon[12:16] != b'IHDR'
             or struct.unpack('>II', icon[16:24]) != (512, 512) or len(icon) > 2_000_000):

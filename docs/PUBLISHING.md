@@ -16,12 +16,18 @@ link only after the listing is live.
 | Source | https://github.com/alegelos/CleanNetworkPlugin |
 | Plugin folder | plugins/cleannetwork |
 | Support | https://github.com/alegelos/CleanNetworkPlugin/issues |
+| Privacy policy | https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/PRIVACY.md |
+| Terms of service | https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/TERMS.md |
 | License | MIT |
 | Components | Three skills, guides and runnable examples; no MCP servers, hooks or agents |
 
-The manifests contain the descriptions and icon paths. The platform skills use
-Swift SDK 1.0.4 and Android SDK 1.0.1 as their baselines. A plugin update does not
-change a consumer's SwiftPM or Gradle dependencies.
+The manifests contain the descriptions and icon paths. The OpenAI interface
+metadata includes the public policy links as `privacyPolicyURL` and
+`termsOfServiceURL`. Before submitting a release, confirm that both links open
+without authentication and contain the reviewed documents on `main`.
+
+The platform skills use Swift SDK 1.0.4 and Android SDK 1.0.1 as their baselines.
+A plugin update does not change a consumer's SwiftPM or Gradle dependencies.
 
 ## OpenAI
 

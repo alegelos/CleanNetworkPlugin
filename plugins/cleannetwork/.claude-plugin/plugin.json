@@ -1,6 +1,6 @@
 {
   "name": "cleannetwork",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Integrate iOSCleanNetwork and AndroidCleanNetwork with domain mapping, fixtures and tests.",
   "author": {
     "name": "alegelos"

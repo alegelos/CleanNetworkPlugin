@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "cleannetwork",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Integrate iOSCleanNetwork and AndroidCleanNetwork with domain mapping, fixtures and tests.",
   "author": {
     "name": "alegelos"
@@ -31,6 +31,8 @@
         "composerIcon": "./assets/icon.png",
         "websiteURL": "https://github.com/alegelos/CleanNetworkPlugin",
         "supportURL": "https://github.com/alegelos/CleanNetworkPlugin/issues",
+        "privacyPolicyURL": "https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/TERMS.md",
         "capabilities": [
           "Integrate Swift and Android endpoints",
           "Map transport types to domain models",

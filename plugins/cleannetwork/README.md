@@ -39,3 +39,6 @@ and [Android guide](skills/androidcleannetwork/references/integration.md).
 
 Report problems or request help through the
 [project's issues](https://github.com/alegelos/CleanNetworkPlugin/issues).
+
+[Privacy policy](https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/PRIVACY.md)
+and [terms of service](https://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/TERMS.md).

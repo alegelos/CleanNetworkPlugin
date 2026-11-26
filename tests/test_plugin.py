@@ -42,7 +42,8 @@ class PluginTests(unittest.TestCase):
         self.assertTrue(wrapper.stat().st_mode & 0o111)
         for path in ('README.md', 'AGENTS.md', 'scripts/verify_codex.py',
                      'scripts/verify_claude.py', '.claude-plugin/marketplace.json',
-                     'docs/PUBLISHING.md', 'tests/test_plugin.py'):
+                     'docs/PUBLISHING.md', 'docs/PRIVACY.md', 'docs/TERMS.md',
+                     'tests/test_plugin.py'):
             self.assertTrue((extracted / path).is_file(), path)
         claude = Path(self.temp.name) / 'claude'
         extract_zip(second[2], claude)
@@ -75,6 +76,36 @@ class PluginTests(unittest.TestCase):
         (self.plugin / 'assets/icon.png').write_bytes(b'not a PNG')
         with self.assertRaisesRegex(ValueError, '512px PNG'):
             validate(self.root)
+
+    def test_public_listing_requires_public_legal_urls(self):
+        manifest = self.plugin / 'plugin.json'
+        original = manifest.read_text()
+        for field in ('privacyPolicyURL', 'termsOfServiceURL'):
+            for value in (None, '', './docs/PRIVACY.md',
+                          'http://github.com/alegelos/CleanNetworkPlugin/blob/main/docs/PRIVACY.md',
+                          'https://example.com/privacy'):
+                with self.subTest(field=field, value=value):
+                    data = json.loads(original)
+                    interface = data['extensions']['com.openai']['interface']
+                    if value is None:
+                        interface.pop(field, None)
+                    else:
+                        interface[field] = value
+                    manifest.write_text(json.dumps(data))
+                    with self.assertRaisesRegex(ValueError, f'Invalid public listing URL: {field}'):
+                        validate(self.root)
+
+    def test_public_legal_document_sources_are_required(self):
+        for name in ('PRIVACY.md', 'TERMS.md'):
+            with self.subTest(document=name):
+                document = self.root / 'docs' / name
+                original = document.read_bytes()
+                document.unlink()
+                try:
+                    with self.assertRaisesRegex(ValueError, f'Missing public policy document: {name}'):
+                        validate(self.root)
+                finally:
+                    document.write_bytes(original)
 
     def test_claude_catalog_escape_is_rejected(self):
         catalog = self.root / '.claude-plugin/marketplace.json'
